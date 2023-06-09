@@ -1,5 +1,6 @@
 import Donation from "../components/Donation";
 import About from "./About";
+import Issues from "./Issues";
 import "./index.scss";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       <div class="content">
         <About />
+        <Issues />
       </div>
     </div>
   );

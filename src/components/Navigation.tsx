@@ -15,7 +15,7 @@ export function Navigation(props: { routes: Route[] }) {
           )}
         </For>
         <li>
-          <a href="https://www.facebook.com/profile.php?id=100093153288241">
+          <a href="https://facebook.com/RobertKohrJr">
             <img src="/images/facebook.png" style="width:1em;position:relative;top:2px;left:-3px" />
             Facebook
           </a>

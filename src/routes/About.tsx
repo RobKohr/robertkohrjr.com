@@ -2,13 +2,13 @@ export default function About() {
   return (
     <div class="section">
       <h2 id="about">About Robert</h2>
-      <img src="/images/about1.jpg" class="about-image" style="float:right" />
+      <img src="/images/about1.jpg" class="picture-image" style="float:right" />
       <p>
         As a dedicated father, possessing an MBA and degrees in both Computer Science and Psychology, Robert brings a unique blend of expertise to the
         table. His extensive background as a research programmer in cognitive science, with a focus on early child development, along with experience
         as a lecturer at a major university, equips him with valuable insights into effective education.
       </p>
-      <img src="/images/about2.jpg" class="about-image" style="float:left" />
+      <img src="/images/about2.jpg" class="picture-image" style="float:left" />
 
       <p>
         With over 25 years of experience in IT management and business ownership, working for renowned companies such as Cisco and Intel, he
