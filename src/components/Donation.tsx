@@ -1,7 +1,7 @@
 import { For } from "solid-js";
 
 export default function Donation() {
-  const donationAmounts: number[] = [25, 50, 100, 250, 500, 1000, 2500, 5000];
+  const donationAmounts: number[] = [25, 50, 100, 250];
 
   return (
     <div class="donation-box">
@@ -18,6 +18,12 @@ export default function Donation() {
             </div>
           )}
         </For>
+        <div style="padding:0.3em">
+          <input type="radio" name="amount" id="more" value="" style="height: 2em;width:2em;" />
+          <label for="more" style="display:inline-block;position:relative;top:-0.4em;left:0.4em">
+            Other
+          </label>
+        </div>
         <input
           type="submit"
           value="Donate"

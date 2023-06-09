@@ -16,6 +16,10 @@ export interface Route {
   label?: string;
 }
 
+window.addEventListener("popstate", function () {
+  console.log("change event");
+});
+
 const routes: Route[] = [
   { path: "/", component: Home },
   { path: "/about", component: About },
@@ -33,6 +37,7 @@ routes.forEach((route) => {
 });
 
 const App: Component = () => {
+  console.log("app");
   return (
     <div class="app">
       <div class="red-background"></div>
