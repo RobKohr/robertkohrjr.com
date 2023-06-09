@@ -19,6 +19,7 @@ export default function Issues() {
         approving and overseeing charter schools in Washington State. The Commission is also responsible for ensuring that charter schools are meeting
         the needs of students and families.
       </p>
+      <img src="/images/about3.jpg" class="picture-image" style="float:right" />
       <p>
         There are only 18 charter schools in Washington State. Part of the reason for this is because the the State Charter School Commission is not
         doing enough to authorize charter schools.

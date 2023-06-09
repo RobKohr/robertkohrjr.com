@@ -20,6 +20,12 @@ export function Navigation(props: { routes: Route[] }) {
             Facebook
           </a>
         </li>
+        <li>
+          <a href="https://twitter.com/RobertKohrJr">
+            <img src="/images/twitter.png" style="width:1em;position:relative;top:2px;left:-3px" />
+            Twitter
+          </a>
+        </li>
       </ul>
     </nav>
   );
