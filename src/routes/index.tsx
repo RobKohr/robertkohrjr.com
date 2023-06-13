@@ -4,6 +4,7 @@ import Issues from "./Issues";
 import "./index.scss";
 
 export default function Home() {
+  window.test = "home";
   return (
     <div class="route-home" style="position:relative;top:-50px;">
       <div class="header-image-section" style="display:flex; width:100%;align-content:stretch">

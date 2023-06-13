@@ -42,11 +42,22 @@ const App: Component = () => {
     <div class="app">
       <div class="red-background"></div>
       <Navigation routes={routes} />
-      <Routes>
-        <For each={routes}>{(route) => <Route path={route.path} component={route.component} />}</For>
-      </Routes>
+      <div class="content" style="min-height:90vh">
+        <Routes>
+          <For each={routes}>{(route) => <Route path={route.path} component={route.component} />}</For>
+        </Routes>
+      </div>
+      <Footer />
     </div>
   );
 };
+
+export function Footer() {
+  return (
+    <div class="footer" style="text-align:center; width:100%;font-size:0.9em">
+      Powered by <a href="https://solidjs.com">SolidJS</a>
+    </div>
+  );
+}
 
 export default App;

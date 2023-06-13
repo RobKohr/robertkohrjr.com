@@ -1,5 +1,5 @@
 export default function Issues() {
-  //   return <p>asdlfjk</p>;
+  window.test = "issues";
   return (
     <div class="section">
       <h2 id="issues">Issues</h2>
@@ -39,8 +39,12 @@ export default function Issues() {
         not doing enough to provide educational options for students and families.
       </p>
       <p>
-        <strong>Robert Kohr Jr</strong>, <strong>Scott Beck</strong>, and <strong>Karis Searcy</strong> are all running to replace the incumbents on
-        the Longview School Board. All three candidates support charter schools and will work to make the Longview School District an authorizer.
+        <strong>Robert Kohr Jr</strong>,{" "}
+        <strong>
+          <a href="http://scottbeckforlongview.com/">Scott Beck</a>
+        </strong>
+        , and <strong>Karis Searcy</strong> are all running to replace the incumbents on the Longview School Board. All three candidates support
+        charter schools and will work to make the Longview School District an authorizer.
       </p>
       <h3>Bullying</h3>
       <p>
